@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>간단한 블로그</title>
+<style>
+  /* 배경색과 기본 스타일 설정 */
+  body {
+    background-color: #f8f9fa; /* 연한 회색 배경 */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  header {
+    background: #333;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffffff 3px solid;
+  }
+
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  header ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  header li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+  header #branding {
+    float: left;
+  }
+
+  header #branding h1 {
+    margin: 0;
+  }
+
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+
+  header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+  }
+
+  header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div id="branding">
+      <h1><span class="highlight">내 블로그</span> HTML 예시</h1>
+    </div>
+    <nav>
+      <ul>
+        <li class="current"><a href="index.html">홈</a></li>
+        <li><a href="about.html">소개</a></li>
+        <li><a href="contact.html">연락처</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <article>
+    <h2>블로그 포스트 제목</h2>
+    <p>이곳에 블로그 포스트의 내용을 넣으세요. 이곳에 텍스트, 이미지, 링크 등을 추가하여 나만의 포스트를 만들 수 있습니다.</p>
+  </article>
+</div>
+
+</body>
+</html>
